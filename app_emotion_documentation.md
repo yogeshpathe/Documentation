@@ -110,7 +110,7 @@ Here's an example of how to integrate the API with JavaScript using `fetch`:
 const formData = new FormData();
 formData.append('file', imageFile);
 
-fetch('http://<server-url>/api/detect_emotion', {
+fetch('https://identity.cxhope.ai/api/detect_emotion', {
   method: 'POST',
   body: formData
 })
