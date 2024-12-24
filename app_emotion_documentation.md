@@ -21,7 +21,7 @@ This endpoint accepts an uploaded image file and returns the detected emotions f
 ### Example Request
 
 ```bash
-curl -X POST "http://<server-url>/api/detect_emotion" -F "file=@path/to/your/image.jpg"
+curl -X POST "https://identity.cxhope.ai/api/detect_emotion" -F "file=@path/to/your/image.jpg"
 ```
 
 ## Response Format
